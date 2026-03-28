@@ -13,3 +13,173 @@ I have taught several courses over the last five years:
   </ul>
   
   </font>
+  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. XXX - Textbooks and Monographs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            padding: 30px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: #333;
+        }
+
+        .page-title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .teacher-info {
+            text-align: center;
+            font-size: 16px;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+        }
+
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .section-title {
+            font-size: 22px;
+            color: #3498db;
+            border-left: 5px solid #3498db;
+            padding-left: 12px;
+            margin-bottom: 20px;
+        }
+
+        .book-list {
+            list-style: none;
+        }
+
+        /* 带封面的书籍条目 */
+        .book-item {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 18px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 15px;
+            align-items: flex-start;
+        }
+
+        .book-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        /* 封面图片样式 */
+        .book-cover {
+            width: 120px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* 书籍信息区域 */
+        .book-info-wrapper {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .book-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2d3436;
+            margin-bottom: 8px;
+        }
+
+        .book-info {
+            font-size: 15px;
+            color: #636e72;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .book-desc {
+            font-size: 14px;
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .page-title {
+                font-size: 24px;
+            }
+            .section-title {
+                font-size: 20px;
+            }
+            .book-cover {
+                width: 100px;
+                height: 130px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="page-title">Books and Monographs</h1>
+
+    <div class="section">
+        <h2 class="section-title">1. Textbooks</h2>
+        <ul class="book-list">
+            <li class="book-item">
+                <img src="advprobab.jpeg" alt="Book Cover" class="book-cover">
+                <div class="book-info-wrapper">
+                    <div class="book-name">Advanced Probability Theory</div>
+                    <div class="book-info"> China Science Publishing| 2023 | ISBN: 978-7-03-075859-0</div>
+                    <div class="book-desc"> textbook for advanced undergraduate and graduate students majoring in mathematics or management science</div>
+                </div>
+            </li>
+            <li class="book-item">
+                <img src="cover2.jpg" alt="Book Cover" class="book-cover">
+                <div class="book-info-wrapper">
+                    <div class="book-name">XXX</div>
+                    <div class="book-info"> XXX | XXX | ISBN: XXX</div>
+                    <div class="book-desc"> XXX      </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">2. Monographs</h2>
+        <ul class="book-list">
+            <li class="book-item">
+                <img src="cover3.jpg" alt="Book Cover" class="book-cover">
+                <div class="book-info-wrapper">
+                    <div class="book-name"> XXX </div>
+                    <div class="book-info"> XXX | XXX | ISBN: XXX </div>
+                    <div class="book-desc"> XXX </div>
+                </div>
+            </li>
+            <li class="book-item">
+                <img src="cover4.jpg" alt="Book Cover" class="book-cover">
+                <div class="book-info-wrapper">
+                    <div class="book-name"> XXX </div>
+                    <div class="book-info"> XXX | XXX | ISBN: XXX</div>
+                    <div class="book-desc"> XXX</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
